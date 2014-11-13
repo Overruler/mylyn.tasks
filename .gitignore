@@ -3,3 +3,4 @@ target/
 *.rej
 *~
 test-attach-*.txt
+/.project
