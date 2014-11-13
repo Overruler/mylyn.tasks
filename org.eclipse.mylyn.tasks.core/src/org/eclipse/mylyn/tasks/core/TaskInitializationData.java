@@ -191,7 +191,6 @@ public class TaskInitializationData implements ITaskMapping {
 	/**
 	 * Throws {@link UnsupportedOperationException}.
 	 */
-	@Nullable
 	public void merge(ITaskMapping source) {
 		throw new UnsupportedOperationException();
 	}
