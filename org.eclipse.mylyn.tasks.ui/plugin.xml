@@ -986,32 +986,12 @@
       <key
             commandId="org.eclipse.mylyn.tasks.ui.command.openTask"
             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
-            sequence="M1+F12"/>
-      <key
-            commandId="org.eclipse.mylyn.tasks.ui.command.openTask"
-            platform="carbon"
-            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
-            sequence="M1+M3+F12">
-      </key>
-      <key
-            platform="carbon"
-            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
-            sequence="M1+F12">
-      </key>
-      <key
-            commandId="org.eclipse.mylyn.tasks.ui.command.openTask"
-            platform="cocoa"
-            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
-            sequence="M1+M3+F12">
-      </key>
-      <key
-            platform="cocoa"
-            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
-            sequence="M1+F12">
-      </key>
+            contextId="org.eclipse.mylyn.tasks.ui.views.tasks"
+            sequence="M1+M3+F12"/>
       <key
             commandId="org.eclipse.mylyn.tasks.ui.command.openRemoteTask"
             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            contextId="org.eclipse.mylyn.tasks.ui.views.tasks"
             sequence="M1+M2+M3+F12"/>
       <key
             commandId="org.eclipse.mylyn.tasks.ui.command.activateTask"
@@ -1336,7 +1316,7 @@
             commandId="org.eclipse.mylyn.tasks.ui.command.markTaskRead"
             contextId="org.eclipse.mylyn.tasks.ui.views.tasks"
             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
-            sequence="M2+M3+R">
+            sequence="R">
       </key>
       <key
             commandId="org.eclipse.mylyn.tasks.ui.command.markTaskRead"
